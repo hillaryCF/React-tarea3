@@ -1,0 +1,13 @@
+.character-list-name {
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 12px;
+}
+.character-list-image {
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+h1{
+  color:#e03c9b;
+  margin: 0;
+}
