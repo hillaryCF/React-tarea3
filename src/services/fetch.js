@@ -1,6 +1,5 @@
 import React from 'react';
 import axios from 'axios';
-import Title from '../components/title';
 import '../fetch.css';
 
 
@@ -21,7 +20,6 @@ class Characters extends React.Component {
     return (
       <div>
         { this.state.charactersRick.map(characterName => <h3 className='character-list-name'>{characterName.name}</h3>)}
-        { this.state.charactersRick.map(characterImage => <img src={characterImage.image.medium} className='character-list-image'></img>)}
       </div>
     )
   }
